@@ -4,7 +4,7 @@ from geometry_msgs.msg import Twist
 
 class Control(Node):
     def __init__(self):
-        super().__init__("turtlebot3")
+        super().__init__("turtlebot3_burger")
 
         self.pub = self.create_publisher(Twist, "/cmd_vel")
 
@@ -13,7 +13,8 @@ class Control(Node):
         l = 0.3
         a = 0.5
 
-        self.run(l, a)
+        while True:
+            self.run(l, a)
 
     def run(self, l, a):
         self.twist.linear.x = float(l)
