@@ -1,6 +1,6 @@
 from setuptools import setup
 
-package_name = 'rl_program'
+package_name = 'demo_program'
 
 setup(
     name=package_name,
@@ -11,10 +11,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    author='yourname',
-    author_email='email@hoge',
-    maintainer='yourname',
-    maintainer_email='email@hoge',
+    author='rickyban',
+    author_email='rickyban@hoge.com',
+    maintainer='rickyban',
+    maintainer_email='rickyban@hoge.com',
     keywords=['ROS'],
     classifiers=[
         'Intended Audience :: Developers',

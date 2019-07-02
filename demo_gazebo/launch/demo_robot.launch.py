@@ -14,12 +14,12 @@ def generate_launch_description():
         output='screen'
     )
     demo = launch_ros.actions.Node(
-        package='rl_program',
+        package='demo_program',
         node_executable='demo',
         output='screen',
         # remappings=[
-        #     ('cmd_vel', '/rl/cmd_vel'),
-        #     ('laser_scan', '/rl/laser_scan')
+        #     ('cmd_vel', '/demo/cmd_vel'),
+        #     ('laser_scan', '/demo/laser_scan')
         # ]
     )
 
