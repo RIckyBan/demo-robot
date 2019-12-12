@@ -1,6 +1,12 @@
 # demo_robot
 
-demo repository for this article.
+Simple Turtlebot3 simulation on gazebo9
+
+### Environment
+
+- gazebo: 9.11.0
+- ROS2: dashing
+- Ubuntu: 18.04.3 LTS (Bionic Beaver).
 
 ### demo
 
